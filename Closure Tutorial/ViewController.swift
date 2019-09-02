@@ -9,12 +9,29 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var myLabel: UILabel!
+    
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    func doAnimation(showLabel: Bool) {
+        let text = "Some Text"
+        
+        UIView.animate(withDuration: 0.3) { [unowned label = self.myLabel!] in
+            if showLabel {
+                label.alpha = 1
+            } else {
+                label.alpha = 0
+            }
+            label.text = text
+        }
     }
 
+    // changes to code
+    
+    /* fjfjkdf
+ 
+ dfjkdfkjfd
+ */
 
 }
 
