@@ -12,6 +12,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var myLabel: UILabel!
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+     
+        experiment()
+        
+    }
 
     func doAnimation(showLabel: Bool) {
         let text = "Some Text"
@@ -45,6 +52,8 @@ class ViewController: UIViewController {
     experimentvar()
         
     }
+    
+    
     
     
     
