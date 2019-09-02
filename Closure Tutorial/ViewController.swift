@@ -33,5 +33,21 @@ class ViewController: UIViewController {
  dfjkdfkjfd
  */
 
+    // changes for experiment
+    
+    
+    
+    
+    func experiment() {
+        
+        let experimentvar = {print("experiment created")}
+    
+    experimentvar()
+        
+    }
+    
+    
+    
+    
 }
 
